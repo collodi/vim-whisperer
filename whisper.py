@@ -22,4 +22,4 @@ else:
 	s = input()
 
 vcmd = vim_whisperer.whisper(s)
-print(vcmd)
+print(vcmd, end='')
